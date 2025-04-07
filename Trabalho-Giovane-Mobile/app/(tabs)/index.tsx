@@ -11,26 +11,35 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
+          source={require('@/assets/images/capa.jpg')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Bem vindo ao meu app</ThemedText>
+        <ThemedText type="title">Invencible </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle"></ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+           <ThemedText type="defaultSemiBold">“Invencível” é uma série de quadrinhos criada 
+            por Robert Kirkman, que segue a história de Mark Grayson, um adolescente que descobre 
+            que herdou os poderes de seu pai, Omni-Man, um super-herói de origem específico. À medida 
+            que Mark começa a explorar suas habilidades e a assumir uma identidade de Invencível, ele 
+            se depara com os desafios típicos da adolescência, como relacionamentos e responsabilidades, 
+            além de enfrentar ameaças superpoderosas que colocam em risco não apenas sua vida, mas também 
+            a de seus entes queridos. A série se destaca por sua abordagem realista e muitas vezes brutal 
+            do gênero de super-heróis, explorando temas como moralidade, lealdade e as consequências das ações 
+            dos heróis. Com reviravoltas impactantes e um enredo que mistura ação, drama e humor, “Invencível” 
+            oferece uma visão única e envolvente do mundo dos super-heróis, desafiando as expectativas do público 
+            e revelando a complexidade das relações familiares e das escolhas que moldam o destino de um herói.
+</ThemedText> 
+         {' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
               android: 'cmd + m',
-              web: 'F12'
             })}
           </ThemedText>{' '}
-          to open developer tools.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -64,8 +73,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
+    height: 250,
+    width: 400,
     bottom: 0,
     left: 0,
     position: 'absolute',
