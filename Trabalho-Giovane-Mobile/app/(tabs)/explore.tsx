@@ -13,12 +13,12 @@ export default function TabTwoScreen() {
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
         <Image
-        source={require('@/assets/images/principal.webp')}
+        source={require('@/assets/images/capa.jpg')}
         style={styles.headerImage}
       />
     }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Allen the Alien gallery</ThemedText>
+        <ThemedText type="title">Os melhores personagens da serie</ThemedText>
       </ThemedView>
       <ThemedText>This app includes example code to help you get started.</ThemedText>
       <Collapsible title="File-based routing">
