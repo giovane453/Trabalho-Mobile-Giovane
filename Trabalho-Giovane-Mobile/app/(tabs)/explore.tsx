@@ -20,7 +20,7 @@ export default function TabTwoScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Os melhores personagens da serie</ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
+      <Image source={require('@/assets/images/protagonista.webp')} style={{ alignSelf: 'center' }} />
       <Collapsible title="File-based routing">
         <ThemedText>
           This app has two screens:{' '}
@@ -108,3 +108,4 @@ const styles = StyleSheet.create({
     gap: 8,
   },
 });
+
