@@ -13,14 +13,22 @@ export default function TabTwoScreen() {
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
         <Image
-        source={require('@/assets/images/capa.jpg')}
-        style={styles.headerImage}
-      />
-    }>
+          source={require('@/assets/images/capa.jpg')}
+          style={styles.headerImage}
+        />
+      }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Os melhores personagens da serie</ThemedText>
+        <ThemedText type="title" style={styles.titleText}>Os melhores personagens da serie</ThemedText>
       </ThemedView>
-      <Image source={require('@/assets/images/protagonista.webp')} style={{ alignSelf: 'center' }} />
+      <Image 
+        source={require('@/assets/images/protagonista.webp')} 
+        style={{ 
+          alignSelf: 'center',
+          width: 380,
+          height: 300,
+          resizeMode: 'contain'
+        }} 
+      />
       <Collapsible title="File-based routing">
         <ThemedText>
           This app has two screens:{' '}
@@ -101,11 +109,13 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
-
-
   titleContainer: {
-    flexDirection: 'row',
-    gap: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+    paddingVertical: 16,
+  },
+  titleText: {
+    textAlign: 'center',
   },
 });
-
