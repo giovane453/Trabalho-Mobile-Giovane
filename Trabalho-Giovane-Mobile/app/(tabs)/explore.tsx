@@ -18,10 +18,10 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title" style={styles.titleText}>Os melhores personagens da serie</ThemedText>
+        <ThemedText type="title" style={styles.titleText}>Quadrinhos de Invencivel</ThemedText>
       </ThemedView>
       <Image 
-        source={require('@/assets/images/protagonista.webp')} 
+        source={require('@/assets/images/primeira.webp')} 
         style={{ 
           alignSelf: 'center',
           width: 380,
