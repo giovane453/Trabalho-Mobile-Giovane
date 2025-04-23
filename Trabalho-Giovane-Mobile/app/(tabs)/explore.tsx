@@ -18,7 +18,7 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title" style={styles.titleText}>Quadrinhos de Invencivel</ThemedText>
+        <ThemedText type="title" style={styles.titleText}>Quadrinhos de Invencível</ThemedText>
       </ThemedView>
       <Image 
         source={require('@/assets/images/primeira.webp')} 
@@ -29,21 +29,41 @@ export default function TabTwoScreen() {
           resizeMode: 'contain'
         }} 
       />
-      <Collapsible title="File-based routing">
+      <Collapsible title="A primeira HQ">
         <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+          Invincible Vol. 1, intitulado "Family Matters", apresenta a origem de Mark Grayson, um adolescente comum que descobre 
+          que seu pai, Nolan Grayson, é na verdade Omni-Man, o super-herói mais poderoso da Terra. Quando Mark começa a desenvolver 
+          seus próprios poderes, ele precisa aprender a equilibrar a vida de estudante com suas novas responsabilidades como o herói
+           Invincible.
         </ThemedText>
+        
         <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
+          No entanto, seu treinamento é colocado à prova quando ameaças alienígenas e vilões perigosos surgem, testando sua força 
+          e coragem. Enquanto isso, segredos sombrios sobre o passado de Omni-Man começam a surgir, colocando em xeque tudo o que 
+          Mark acreditava sobre sua família e o verdadeiro propósito de seu pai na Terra.
         </ThemedText>
+        
+        <ThemedText>
+          Escrita por Robert Kirkman e com arte de Cory Walker, esta primeira graphic novel de Invincible mistura ação intensa, 
+          drama familiar e reviravoltas chocantes, redefinindo o que significa ser um herói. Uma história cheia de emoção, 
+          consequências reais e um final que deixará você ansioso pela próxima página.
+        </ThemedText>
+        
+        <Image 
+        source={require('@/assets/images/entrada.jpg')} 
+        style={{ 
+          alignSelf: 'center',
+          width: 380,
+          height: 300,
+          resizeMode: 'contain'
+        }} 
+      />
+
         <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
-      <Collapsible title="Android, iOS, and web support">
+      <Collapsible title="Ivencível #5">
         <ThemedText>
           You can open this project on Android, iOS, and the web. To open the web version, press{' '}
           <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
