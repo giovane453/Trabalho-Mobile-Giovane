@@ -21,7 +21,15 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText>
           <ThemedText type="defaultSemiBold" style={styles.description}>
-            “Invencível” é uma série de quadrinhos criada por Robert Kirkman, que segue a história de Mark Grayson, um adolescente que descobre que herdou os poderes de seu pai, Omni-Man, um super-herói de origem específico. À medida que Mark começa a explorar suas habilidades e a assumir uma identidade de Invencível, ele se depara com os desafios típicos da adolescência, como relacionamentos e responsabilidades, além de enfrentar ameaças superpoderosas que colocam em risco não apenas sua vida, mas também a de seus entes queridos. A série se destaca por sua abordagem realista e muitas vezes brutal do gênero de super-heróis, explorando temas como moralidade, lealdade e as consequências das ações dos heróis. Com reviravoltas impactantes e um enredo que mistura ação, drama e humor, “Invencível” oferece uma visão única e envolvente do mundo dos super-heróis, desafiando as expectativas do público e revelando a complexidade das relações familiares e das escolhas que moldam o destino de um herói.
+            “Invencível” é uma série de quadrinhos criada por Robert Kirkman, que segue a história de Mark Grayson, um adolescente 
+            que descobre que herdou os poderes de seu pai, Omni-Man, um super-herói de origem específico. À medida que Mark começa a 
+            explorar suas habilidades e a assumir uma identidade de Invencível, ele se depara com os desafios típicos da adolescência,
+             como relacionamentos e responsabilidades, além de enfrentar ameaças superpoderosas que colocam em risco não apenas sua 
+             vida, mas também a de seus entes queridos. A série se destaca por sua abordagem realista e muitas vezes brutal do gênero
+              de super-heróis, explorando temas como moralidade, lealdade e as consequências das ações dos heróis. Com reviravoltas 
+              impactantes e um enredo que mistura ação, drama e humor, “Invencível” oferece uma visão única e envolvente do mundo dos 
+              super-heróis, desafiando as expectativas do público e revelando a complexidade das relações familiares e das escolhas que 
+              moldam o destino de um herói.
           </ThemedText> 
           {' '}
           <ThemedText type="defaultSemiBold">

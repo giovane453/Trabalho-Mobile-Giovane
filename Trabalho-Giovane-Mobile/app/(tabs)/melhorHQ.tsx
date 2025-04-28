@@ -49,52 +49,27 @@ export default function TabTwoScreen() {
           consequências reais e um final que deixará você ansioso pela próxima página.
         </ThemedText>
         
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link"></ThemedText>
-        </ExternalLink>
-      </Collapsible>
-      
-      <Image 
+        <Image 
         source={require('@/assets/images/entrada.jpg')} 
         style={{ 
           alignSelf: 'center',
           width: 380,
           height: 300,
-          resizeMode: 'contain',
-          marginTop: 16, 
-          marginBottom: 16 
+          resizeMode: 'contain'
         }} 
       />
 
-<Collapsible title="Ivencível #5">
-  <ThemedText>
-    Em seu maior teste como herói, Mark Grayson — o adolescente que herdou os poderes de seu pai, o lendário Omni-Man decide 
-    agir sozinho contra os perigosos Sangue-Bombas, um grupo de supervilões que aterroriza a cidade. Porém, sua inexperiência 
-    quase se torna sua ruína: a luta é brutal, e Invencível é gravemente ferido, descobrindo da pior forma que ser um herói exige 
-    mais do que apenas superpoderes.
-  </ThemedText>
-  
-  <ThemedText>
-    Omni-Man, furioso com a imprudência do filho, o humilha publicamente, revelando uma faceta cruel em seu 
-    treinamento. Enquanto isso, Mark tenta conciliar sua vida dupla — entre os dramas da escola, seu interesse por Amber e 
-    a crescente preocupação de sua mãe, Debbie. Mas o conflito com Nolan aprofunda-se, e segredos familiares começam a surgir, 
-    sugerindo que o maior herói da Terra esconde algo sinistro.
-  </ThemedText>
-</Collapsible>
-      
-<Image 
-        source={require('@/assets/images/fim.jpg')} 
-        style={{ 
-          alignSelf: 'center',
-          width: 380,
-          height: 300,
-          resizeMode: 'contain',
-          marginTop: 16, 
-          marginBottom: 16 
-        }} 
-      />
-
-      <Collapsible title="Invencível #75">
+        <ExternalLink href="https://docs.expo.dev/router/introduction">
+          <ThemedText type="link"></ThemedText>
+        </ExternalLink>
+      </Collapsible>
+      <Collapsible title="Ivencível #5">
+        <ThemedText>
+          You can open this project on Android, iOS, and the web. To open the web version, press{' '}
+          <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
+        </ThemedText>
+      </Collapsible>
+      <Collapsible title="Images">
         <ThemedText>
           For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
           <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
