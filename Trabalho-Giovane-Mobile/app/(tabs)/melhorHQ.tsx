@@ -63,10 +63,10 @@ export default function TabTwoScreen() {
         </ThemedText>
         <ThemedView style={styles.imageContainer}>
           <Image 
-            source={require('@/assets/images/conquista.webp')} 
-            style={styles.centeredImage} 
-        />
-         <ThemedText>Asim acabando essa HQ sem o Mark saber quem é esse cara</ThemedText>
+            source={require('@/assets/images/ready.webp')} 
+            style={styles.mainImage} 
+          />
+         <ThemedText>Asim acabando essa HQ sem o Mark saber quem falou isso.</ThemedText>
         </ThemedView>
       </Collapsible>
     </ParallaxScrollView>
@@ -102,10 +102,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: '100%',
     marginVertical: 10,
-  },
-  centeredImage: {
-    width: 500,
-    height: 400,
-    resizeMode: 'contain',
   },
 });
