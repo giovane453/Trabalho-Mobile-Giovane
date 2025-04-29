@@ -57,10 +57,21 @@ export default function TabTwoScreen() {
           style={styles.mainImage} 
         />
       </Collapsible>
+      <Collapsible title="O Inesperado">
+        <ThemedText>
+         Enquanto o Mark estava limpando os destroços depois da vinda de Angstrom Levy, inesperadamente aparece uma pessoa falando:
+        </ThemedText>
+        <ThemedView style={styles.imageContainer}>
+          <Image 
+            source={require('@/assets/images/conquista.webp')} 
+            style={styles.centeredImage} 
+        />
+         <ThemedText>Asim acabando essa HQ sem o Mark saber quem é esse cara</ThemedText>
+        </ThemedView>
+      </Collapsible>
     </ParallaxScrollView>
   );
 }
-
 
 const styles = StyleSheet.create({
   headerImage: {
@@ -85,5 +96,16 @@ const styles = StyleSheet.create({
     height: 200,
     resizeMode: 'contain',
     marginVertical: 10,
+  },
+  imageContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+    marginVertical: 10,
+  },
+  centeredImage: {
+    width: 500,
+    height: 400,
+    resizeMode: 'contain',
   },
 });
