@@ -5,4 +5,4 @@ Logo abaixo tem umas fotos do aplicativo
 <br>
 <br>
 Primeira pagína do aplicativo
-<img src="[https://github.com/user-attachments/assets/7e66f1ed-0a01-49ad-b679-c0bd2ff32f54](https://github.com/user-attachments/assets/7e66f1ed-0a01-49ad-b679-c0bd2ff32f54)" >
+<img src="https://github.com/user-attachments/assets/7e66f1ed-0a01-49ad-b679-c0bd2ff32f54" >
