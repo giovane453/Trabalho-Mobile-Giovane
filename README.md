@@ -1,1 +1,4 @@
-Este aplicativo foi feito para os fãs de invencível, pois aqui tem os melhores quadrinhos da seríe 
+Este aplicativo foi feito para os fãs de invencível, pois aqui você verá os melhores quadrinhos da seríe 
+<br>
+<br>
+Logo abaixo tem umas fotos do aplicativo
